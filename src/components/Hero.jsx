@@ -2,11 +2,12 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import { styles } from "../styles";
 import { hero, CV } from "../assets";
+import Wave from "react-wavify";
 
 const Hero = () => {
   return (
     <section
-      className={`${styles.paddingX} flex flex-col sm:flex-row sm:justify-between sm:pt-[130px] pt-[100px] w-full mx-auto min-h-screen `}
+      className={`${styles.paddingX} flex flex-col sm:flex-row sm:justify-between sm:pt-[130px] pt-[100px] w-full mx-auto min-h-screen bg-hero-pattern bg-no-repeat bg-cover bg-center`}
     >
       <div className="flex gap-4 h-full">
         <div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { github } from "../assets";
+
 const ProjectCard = ({ project }) => {
   return (
     <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[460px]">
@@ -18,7 +19,11 @@ const ProjectCard = ({ project }) => {
             onClick={() => window.open(project.sourceCode, "_blank")}
             className="flex items-center justify-center black-gradient w-10 h-10 rounded-full cursor-pointer"
           >
-            <img src={github} alt="" className="w-1/2 h-1/2 object-contain" />
+            <img
+              src={github}
+              alt=""
+              className="w-1/2 h-1/2 object-contain transform hover:scale-150 transition-all ease-linear"
+            />
           </div>
         </div>
       </div>
