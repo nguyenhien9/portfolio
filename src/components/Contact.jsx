@@ -37,7 +37,7 @@ const Contact = () => {
             to_email: "ngnghien5588@gmail.com",
             message: info.msg,
           },
-          import.meta.env.VITE_PUBLIC_KEY
+          "z8lczYgMYmZGJ7_C7"
         )
         .then(
           () => {
