@@ -2,7 +2,6 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import { styles } from "../styles";
 import { hero, CV } from "../assets";
-import Wave from "react-wavify";
 
 const Hero = () => {
   return (
