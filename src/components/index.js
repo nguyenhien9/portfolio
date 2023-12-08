@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
+import HeroImage from "./HeroImage";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
@@ -11,6 +12,7 @@ import Footer from "./Footer";
 export {
   Navbar,
   Hero,
+  HeroImage,
   About,
   TimelineCard,
   ExperienceCard,

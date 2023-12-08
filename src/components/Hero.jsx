@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 import { styles } from "../styles";
 import { hero, CV } from "../assets";
 
@@ -14,8 +15,16 @@ const Hero = () => {
         <div className="flex flex-col items-start xl:gap-5">
           <h1 className={`${styles.heroHeadText} -mt-4 flex flex-col`}>
             <span>Hi,</span>
-            <span className="text-gradient">I'm Hien,</span>
-            <span>Front End Dev</span>
+            <span className="text-gradient">
+              <Typewriter
+                options={{
+                  strings: ["I'm Hien,"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
+            <span>Web Developer</span>
           </h1>
           <div className="flex flex-col items-start gap-4">
             <button className="sm:w-[180px] w-[150px] h-[40px] sm:h-[50px] btn-gradient rounded-lg sm:text-lg font-medium">
@@ -23,7 +32,7 @@ const Hero = () => {
             </button>
             <a
               href={CV}
-              download="NguyenHien_Front-end.pdf"
+              download="NguyenHien_Web-Developer.pdf"
               className="border-2 border-cyan-700 px-4 py-2 
             sm:text-sm text-xs rounded-md download-btn cursor-pointer"
             >
@@ -32,7 +41,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="h-full hero-img">
+      <div className="h-full ">
         <img
           src={hero}
           alt="hero-img"
