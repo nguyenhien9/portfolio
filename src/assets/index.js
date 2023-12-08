@@ -15,7 +15,7 @@ import git from "./skills/git.png";
 import webapp from "./images/webapp.jpg";
 import expense from "./images/expense.jpg";
 import contact from "./images/contact.svg";
-import CV from "./file/Nguyễn Ngọc Hiền - Web Developer.pdf";
+import CV from "./file/Nguyễn Ngọc Hiền - Web-Developer.pdf";
 import avatar from "./images/profile.jpeg";
 import fb from "./images/facebook.svg";
 import mail from "./images/email.svg";
