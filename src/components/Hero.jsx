@@ -6,7 +6,7 @@ import { hero, CV } from "../assets";
 const Hero = () => {
   return (
     <section
-      className={`${styles.paddingX} flex flex-col sm:flex-row sm:justify-between sm:pt-[130px] pt-[100px] w-full mx-auto min-h-screen bg-hero-pattern bg-no-repeat bg-cover bg-center`}
+      className={`${styles.paddingX} flex flex-col sm:flex-row sm:justify-between sm:pt-[130px] pt-[100px] w-full mx-auto min-h-screen `}
     >
       <div className="flex gap-4 h-full">
         <div>
